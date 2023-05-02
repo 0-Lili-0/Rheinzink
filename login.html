@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rheinzink</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="style/login.css" rel="stylesheet">
+</head>
+<body class="text-center">
+    <main class="form-signin">
+        <form>
+            <img class="mb-4" src="/public/rheinzink-logo.jpg" alt="logo" height="300" />
+            <h1 class="h3 mb-3 fw-normal">Accès au relevé transports</h1>
+            <!-- Email input -->
+            <div class="form-floating">
+                <input type="email" id="email" class="form-control" placeholder="name@example.com"/>
+                <label class="form-label" for="floatingInput">Nom d'utilisateur</label>
+            </div>
+    
+            <!-- Password input -->
+            <div class="form-floating">
+                <input type="password" id="password" class="form-control" placeholder="Password"/>
+                <label class="form-label" for="floatingInput">Password</label>
+            </div>
+    
+            <!-- password forgot-->
+            <div class="reset-mdp">
+                <div>
+                    <!-- Simple link -->
+                    <a href="#!">Mot de passe oublié ?</a>
+                </div>
+            </div>
+    
+            <!-- Submit button -->
+            <button type="button" class="w-100 btn btn-lg btn-primary mt-3">Connection</button>
+    
+            <!-- Register buttons -->
+            <div class="register">
+                <p>Pas inscrit ? <a href="sign-in.html">S'enregistrer</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
